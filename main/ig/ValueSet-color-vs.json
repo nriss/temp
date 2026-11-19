@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "color-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs color-vs</b></p><a name=\"color-vs\"> </a><a name=\"hccolor-vs\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-color-cs.html\"><code>https://example.org/ig/monig/CodeSystem/color-cs</code></a><span title=\"La version est explicitement indiquée comme étant 0.1.0\"> version &#x1F4CD;0.1.0</span></li></ul></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet color-vs</b></p><a name=\"en-color-vs\"> </a><a name=\"en-hccolor-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-color-cs.html\"><code>https://example.org/ig/monig/CodeSystem/color-cs</code></a><span title=\"Version is explicitly stated to be 0.1.0\"> version &#x1F4CD;0.1.0</span></li></ul></div></div>"
+  },
+  "url" : "https://example.org/ig/monig/ValueSet/color-vs",
+  "version" : "0.1.0",
+  "name" : "ColorVS",
+  "title" : "Colors",
+  "status" : "draft",
+  "date" : "2026-11-19T09:17:54+00:00",
+  "publisher" : "Work Group Meeting HL7 Europe Malaga",
+  "contact" : [{
+    "name" : "Work Group Meeting HL7 Europe Malaga",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://hl7europe.eu/hl7-europe-working-group-meeting-malaga-2026/"
+    }]
+  }],
+  "description" : "A few colors.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://example.org/ig/monig/CodeSystem/color-cs",
+      "version" : "0.1.0"
+    }]
+  }
+}

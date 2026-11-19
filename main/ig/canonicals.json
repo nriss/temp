@@ -1,0 +1,28 @@
+[{
+  "id" : "color-cs",
+  "type" : "CodeSystem",
+  "url" : "https://example.org/ig/monig/CodeSystem/color-cs",
+  "version" : "0.1.0",
+  "name" : "ColorCS"
+},
+{
+  "id" : "org.fhir.eu.monig",
+  "type" : "ImplementationGuide",
+  "url" : "https://example.org/ig/monig/ImplementationGuide/org.fhir.eu.monig",
+  "version" : "0.1.0",
+  "name" : "ExampleIG"
+},
+{
+  "id" : "eye-color-observation",
+  "type" : "StructureDefinition",
+  "url" : "https://example.org/ig/monig/StructureDefinition/eye-color-observation",
+  "version" : "0.1.0",
+  "name" : "EyeColorObservation"
+},
+{
+  "id" : "color-vs",
+  "type" : "ValueSet",
+  "url" : "https://example.org/ig/monig/ValueSet/color-vs",
+  "version" : "0.1.0",
+  "name" : "ColorVS"
+}]

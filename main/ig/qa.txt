@@ -1,0 +1,54 @@
+ExampleIG : Validation Results
+=========================================
+
+err = 0, warn = 17, info = 5, broken links = 0
+IG Publisher Version: 3.0.4
+Generated Thu Nov 19 09:19:15 UTC 2026. FHIR version 4.0.1 for org.fhir.eu.monig#0.1.0 (canonical = https://example.org/ig/monig)
+ Build Errors : 0 / 11 / 0
+ /__w/temp/temp/igSource/fsh-generated/resources/CodeSystem-color-cs : 0 / 3 / 2
+ /__w/temp/temp/igSource/fsh-generated/resources/ImplementationGuide-org.fhir.eu.monig : 0 / 0 / 3
+ /__w/temp/temp/igSource/fsh-generated/resources/Observation-EyeColorObservationExample : 0 / 1 / 2
+ /__w/temp/temp/igSource/fsh-generated/resources/StructureDefinition-eye-color-observation : 0 / 0 / 132
+ /__w/temp/temp/igSource/fsh-generated/resources/ValueSet-color-vs : 0 / 2 / 2
+</table>
+
+== n/a ==
+WARNING: /__w/temp/temp/igSource/output/searchform.html: The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
+WARNING: /__w/temp/temp/igSource/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
+WARNING: /__w/temp/temp/igSource/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
+WARNING: /__w/temp/temp/igSource/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 109 column 8
+WARNING: /__w/temp/temp/igSource/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 111 column 12
+WARNING: /__w/temp/temp/igSource/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
+WARNING: /__w/temp/temp/igSource/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
+WARNING: /__w/temp/temp/igSource/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
+
+
+== fsh-generated/resources/CodeSystem-color-cs.json ==
+INFORMATION: CodeSystem/color-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/color-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/color-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+WARNING: Resource: The resource CodeSystem/color-cs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ImplementationGuide-org.fhir.eu.monig.json ==
+INFORMATION: Resource: The resource ImplementationGuide/org.fhir.eu.monig could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/Observation-EyeColorObservationExample.json ==
+INFORMATION: Observation/EyeColorObservationExample: Observation.value.ofType(CodeableConcept): Reference to draft CodeSystem https://example.org/ig/monig/CodeSystem/color-cs|0.1.0
+WARNING: Observation/EyeColorObservationExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+
+
+== fsh-generated/resources/StructureDefinition-eye-color-observation.json ==
+INFORMATION: StructureDefinition/eye-color-observation: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+INFORMATION: Resource: The resource StructureDefinition/eye-color-observation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-color-vs.json ==
+WARNING: ValueSet/color-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/color-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+

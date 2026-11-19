@@ -1,0 +1,32 @@
+{
+  "resourceType" : "Observation",
+  "id" : "EyeColorObservationExample",
+  "meta" : {
+    "profile" : ["https://example.org/ig/monig/StructureDefinition/eye-color-observation"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : Observation EyeColorObservationExample</b></p><a name=\"EyeColorObservationExample\"> </a><a name=\"hcEyeColorObservationExample\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-eye-color-observation.html\">Eye color observation</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/observation-category exam}\">Exam</span></p><p><b>code</b>: <span title=\"Codes :\">Eye color</span></p><p><b>subject</b>: Jane Doe</p><p><b>effective</b>: 2026-11-19</p><p><b>value</b>: <span title=\"Codes :{https://example.org/ig/monig/CodeSystem/color-cs green}\">Green</span></p></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Observation EyeColorObservationExample</b></p><a name=\"en-EyeColorObservationExample\"> </a><a name=\"en-hcEyeColorObservationExample\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-eye-color-observation.html\">Eye color observation</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category exam}\">Exam</span></p><p><b>code</b>: <span title=\"Codes:\">Eye color</span></p><p><b>subject</b>: Jane Doe</p><p><b>effective</b>: 2026-11-19</p><p><b>value</b>: <span title=\"Codes:{https://example.org/ig/monig/CodeSystem/color-cs green}\">Green</span></p></div></div>"
+  },
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "exam"
+    }]
+  }],
+  "code" : {
+    "text" : "Eye color"
+  },
+  "subject" : {
+    "display" : "Jane Doe"
+  },
+  "effectiveDateTime" : "2026-11-19",
+  "valueCodeableConcept" : {
+    "coding" : [{
+      "system" : "https://example.org/ig/monig/CodeSystem/color-cs",
+      "code" : "green",
+      "display" : "Green"
+    }]
+  }
+}

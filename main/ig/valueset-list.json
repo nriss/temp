@@ -1,0 +1,11 @@
+{
+  "codeSystems" : [{
+    "url" : "https://example.org/ig/monig/ValueSet/color-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ColorVS",
+    "title" : "Colors",
+    "description" : "A few colors.",
+    "systems" : ["https://example.org/ig/monig/CodeSystem/color-cs"]
+  }]
+}

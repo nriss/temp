@@ -1,0 +1,7 @@
+{
+  "version" : "0.1.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20261119091754",
+  "name" : "org.fhir.eu.monig",
+  "jurisdiction" : "urn:iso:std:iso:3166#FR"
+}
